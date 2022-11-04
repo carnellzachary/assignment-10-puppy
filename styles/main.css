@@ -1,0 +1,76 @@
+/* you will add css rules for element selectors and IDs */
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+/* you may add to or change the body rule */
+body {
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    margin: 0;
+}
+
+.container {
+    width: 100%; /* DO NOT delete or change this line */
+}
+
+header {
+  display: flex;
+  padding: 1rem 2rem 1rem 2rem;
+  background: #282828;
+}
+
+article {
+  display: flex;
+  color: #000;
+  padding: 50px 0 50px 0;
+  justify-content: center;
+}
+
+section {
+  max-width: 600px;
+  flex: 1 1 0;
+}
+
+section.text {
+  padding: 0 2rem 0 1rem;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+section.charts {
+  padding: 0 1rem 0 2rem;
+}
+
+section h2 {
+  margin: 0;
+}
+
+#analysis {
+  background: #d3d3d3;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #282828;
+}
+
+/* --- link pseudo classes --- */
+/* --- you may ADD other link pseudo classes for
+        specific articles or sections to improve CONTRAST --- */
+
+a {
+    color: #004A9E;
+}
+
+a:hover {
+    color: #0077FF;
+    text-decoration: none;
+}
